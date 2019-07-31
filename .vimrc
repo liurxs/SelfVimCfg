@@ -30,7 +30,7 @@ let OmniCpp_MayCompleteDot=1
 let OmniCpp_MayCompleteArrow=1
 map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 "set tags+=/home/liurongxue/projects/h9/CtrlCard/Middleware/MasterProcess/tags
-
+map <F3> :TlistToggle<CR>
 syntax enable
 syntax on
 
